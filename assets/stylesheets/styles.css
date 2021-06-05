@@ -1,0 +1,75 @@
+body{
+    font-family: 'Sigmar One', cursive;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  
+  
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+#label-container{
+  border: none;
+}
+
+div {
+    border: 2px solid rgb(135, 68, 202);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    width: 50%;
+    border: 3px solid rgb(61, 193, 226);
+    padding: 10px;
+    overflow-wrap: break-word;
+  }
+
+.Threat{
+  color: red;
+  text-shadow: 3px #fff; 
+  font-size: 160%;
+  text-align: center;
+  vertical-align: middle;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 100%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding: 10px;
+}
+
+.LD0,.LD1,.LD2{
+  width: 50%;
+  background-color: green;
+}
+
+button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
